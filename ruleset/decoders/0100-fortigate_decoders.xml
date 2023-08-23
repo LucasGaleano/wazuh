@@ -816,7 +816,7 @@
 -->
 <decoder name="fortigate-firewall-v6">
   <type>syslog</type>
-  <prematch>date=\d\d\d\d-\d\d-\d\d time=\.+logid=\.+type=\.+subtype=\.+</prematch>
+  <prematch>date=\d\d\d\d-\d\d-\d\d time=\d\d:\d\d:\d\d logid=\.+type=\.+subtype=\.+</prematch>
 </decoder>
 
 <decoder name="fortigate-firewall-v6">
